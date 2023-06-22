@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furious Five</title>
+    <link rel="stylesheet" href="Style Fire.css">
+</head>
+<body>
+    <div class="header">
+        <div class="top-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Work</a></li>
+                
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul>
+            <button>LogIn</button>
+        </div>
+        <div class="side-nav">
+            <img src="eNTER LOGO.png" class="logo">
+            <a href="hello.html" target="_blank">LAVA HEX</a>
+        </div>
+        <div class="text-box">
+            <p>WE ARE THE</p>
+            <h1>Furious Five</h1>
+        </div>
+    
+    </div>
+    <div class="about-us" id="about">
+        <div class="matter">
+            <h3>About us</h3>
+            <p>We are Five students from IIT dhanbad.</p>
+            <p>we are currently working on this site.</p>
+            <p>our goal is to get devloped in desining this site</p>
+            <p>and planning to release this on the world wide web</p>
+            <p>for getting our selves familiar with working from</p>
+            <p>backend and get revenue from this site for our </p>
+            <p>future projects. </p>
+        </div>
+        <div class="user hide-details" id="userBox">
+            <img src="profile.jpg" onclick="openinfo()">
+            <div class="info">
+                <h1>Rayudu Praveen</h1>
+                <p>UnderGraduate at <span>IIT Dhanbad</span></p>
+                <p>Mechanical Engineering</p>
+                <div>
+                    <a href="https://www.linkedin.com/in/rayudu-venkata-praveen-a33488227?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bsig7eoHuSE%2B4SRHMcV12Ng%3D%3D" target="_blank">CONNECT</a>
+                </div>
+           </div>
+            <div class="close-icon" onclick="closeinfo()">
+    
+            </div>
+        </div>
+        <script>
+            let userBox = document.getElementById("userBox");
+    
+            function openinfo(){
+                userBox.classList.remove("hide-details")
+            }
+            function closeinfo(){
+                userBox.classList.add("hide-details")
+            }
+        </script>
+        <div class="user hide-details2" id="userBox2">
+            <img src="profile peddinti.jpg" onclick="openinfo2()">
+            <div class="info">
+                <h1>Bhuvaneswar rao</h1>
+                <p>UnderGraduate at <span>IIT Dhanbad</span></p>
+                <p>Electronics Engineering</p>
+                <div>
+                    <a href="#">CONNECT</a>
+                </div>
+           </div>
+            <div class="close-icon" onclick="closeinfo2()">
+    
+            </div>
+        </div>
+        
+        <script>
+            let userBox2 = document.getElementById("userBox2");
+    
+            function openinfo2(){
+                userBox2.classList.remove("hide-details2")
+            }
+            function closeinfo2(){
+                userBox2.classList.add("hide-details2")
+            }
+        </script>
+        <div class="user hide-details3" id="userBox3">
+            <img src="profile umesh.jpg" onclick="openinfo3()">
+            <div class="info">
+                <h1>Gowtham umesh</h1>
+                <p>UnderGraduate at <span>IIT Dhanbad</span></p>
+                <p>Electronics Engineering</p>
+                <div>
+                    <a href="#">CONNECT</a>
+                </div>
+           </div>
+            <div class="close-icon" onclick="closeinfo3()">
+    
+            </div>
+        </div>
+        
+        <script>
+            let userBox3 = document.getElementById("userBox3");
+    
+            function openinfo3(){
+                userBox3.classList.remove("hide-details3")
+            }
+            function closeinfo3(){
+                userBox3.classList.add("hide-details3")
+            }
+        </script>
+        <div class="user hide-details4" id="userBox4">
+            <img src="profile madhu.jpg" onclick="openinfo4()">
+            <div class="info">
+                <h1>Bhargav madhukar</h1>
+                <p>UnderGraduate at <span>IIT Dhanbad</span></p>
+                <p>Electrical Engineering</p>
+                <div>
+                    <a href="#">CONNECT</a>
+                </div>
+           </div>
+            <div class="close-icon" onclick="closeinfo4()">
+    
+            </div>
+        </div>
+        
+        <script>
+            let userBox4 = document.getElementById("userBox4");
+    
+            function openinfo4(){
+                userBox4.classList.remove("hide-details4")
+            }
+            function closeinfo4(){
+                userBox4.classList.add("hide-details4")
+            }
+        </script>
+        <div class="user hide-details5" id="userBox5">
+            <img src="profile san.jpg" onclick="openinfo5()">
+            <div class="info">
+                <h1>Santhosh mandala</h1>
+                <p>UnderGraduate at <span>IIT Dhanbad</span></p>
+                <p>Civil Engineering</p>
+                <div>
+                    <a href="#">CONNECT</a>
+                </div>
+           </div>
+            <div class="close-icon" onclick="closeinfo5()">
+    
+            </div>
+        </div>
+        
+        <script>
+            let userBox5 = document.getElementById("userBox5");
+    
+            function openinfo5(){
+                userBox5.classList.remove("hide-details5")
+            }
+            function closeinfo5(){
+                userBox5.classList.add("hide-details5")
+            }
+        </script>
+    </div>
+    <footer class="pie-pagina" id="footer">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="furious logo.png" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>FURIOUS FIVE</h2>
+                <p>Thanks For Visiting Our Page</p>
+                <p>You Can Give Your Valuble Feedback At Out social Media Handles</p>
+            </div>
+            <div class="box">
+                <h2>SOCIAL MEDIA</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"><img src="fb.png" alt=""></a>
+                    <a href="#" class="fa fa-instagram"><img src="ig.png" alt=""></a>
+                    <a href="#" class="fa fa-twitter"><img src="tw.png" alt=""></a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <b>@The Rayudu</b> - all Rights Reserved.</small>
+        </div>
+    </footer>
+
+</body>
+</html>
